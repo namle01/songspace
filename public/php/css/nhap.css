@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{  }                        
+body{  } 
+ol,ul{  list-style:none}
+
+q,blockquote{  quotes:none}                       
+q:before,q:after,blockquote:before,blockquote:after{  content:"";content:none}  
+a img{  }   
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{  display:block}                        article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{  display:block}
+*{  -moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+a{  }                        
+html{}                        
+body{  min-height:100%;}
+body section.live_show{  width:960px;}                        
+
+body section.live_showfigure#anh{  -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;-ms-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box;background:rgba(0, 0, 0, 0.3);-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.1), 0 0 8px rgba(0, 0, 0, 0.9) inset}                        
+body section.live_showfigure#anh div.fluxanh div.surface{  width:100%;box-sizing:content-box}                        
+body section.live_showfigure#anh div.fluxanh ul.pagination{  box-sizing:content-box;padding:10px 0 !important;overflow:hidden}                        
+body section.live_showfigure#anh div.fluxanh ul.pagination li{  text-indent:10000px;height:8px;width:8px;}                        
+body section.live_showfigure#anh div.fluxanh ul.pagination li.current{  }
+
+body#transitiongallery section.live_show{  width:960px}                        
+body#transitiongallery section.live_showdiv#anhcontainer{  position:relative}                        
+body#transitiongallery section.live_showdiv#anhcontainer div#transitions{  position:absolute;z-index:50;top:20px;right:20px;width:150px;font-size:0.85em}                        
+body#transitiongallery section.live_showdiv#anhcontainer div#transitions h2{  font-size:1em;text-align:left;color:#CCC;font-weight:bold;margin-bottom:0.7em}                        
+body#transitiongallery section.live_showdiv#anhcontainer div#transitions ul{  margin-bottom:1.5em}                        body#transitiongallery section.live_showdiv#anhcontainer div#transitions ul li{  font-size:0.8em;margin-bottom:0.7em}
+body#transitiongallery section.live_showdiv#anhcontainer div#transitions ul li a{  display:block;padding:0.5em;position:relative}                        
+body#transitiongallery section.live_showdiv#anhcontainer div#transitions ul li a:active{  top:1px}                        body#transitiongallery section.live_showdiv#anhcontainer div#transitions ul li a.new:after{  content:'New';font-size:0.8em;padding:0.2em 0.4em;color:#FFF;position:absolute;top:-0.5em;right:-0.5em}                        
+
+

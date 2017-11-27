@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/flux.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+			$(function(){
+				if(!flux.browser.supportsTransitions)
+					alert("");
+					
+				window.f = new flux.slider('#anh', {
+					pagination: true
+				});
+			});
+		</script>
+<link href="css/nhap.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<section class="live_show">
+            	<figure id="anh">
+                	
+                <div class="fluxslider" style="width: 960px; height: 566px;"><div class="surface" style="position: relative"><div class="images" style="position: relative; overflow: hidden; min-height: 100px; width: 1100px; height: 546px;"><div class="image1" style="height: 546px; width: 1100px; position: absolute; top: 0px; left: 0px; background-image: url(&quot;file:///D:/SongSpace/public/img/4.jpg&quot;); z-index: 101; cursor: auto; perspective: 1000px; perspective-origin: 50% 50%; transform-style: flat;"></div><div class="image2" style="height: 546px; width: 1100px; position: absolute; top: 0px; left: 0px; background-image: url(&quot;file:///D:/SongSpace/public/img/1.jpg&quot;); z-index: 100; display: block;"></div></div></div><ul class="pagination" style="margin: 0px; padding: 0px; text-align: center;"><li data-index="0" class="" style="display: inline-block; margin-left: 0px; cursor: pointer;">1</li><li data-index="1" class="" style="display: inline-block; margin-left: 0.5em; cursor: pointer;">2</li><li data-index="2" class="" style="display: inline-block; margin-left: 0.5em; cursor: pointer;">3</li><li data-index="3" class="current" style="display: inline-block; margin-left: 0.5em; cursor: pointer;">4</li></ul></div></figure>
+            </section>
+                	<img src="img/1.jpg" name="slide">
+                    <img src="img/2.jpg" name="slide">
+                    <img src="img/3.jpg" name="slide">
+                    <img src="img/4.jpg" name="slide">
+                	<section class="button">
+                    	<button type="button" value="next" onClick="next()" name="anh"></button>
+                        <button type="button" value="preview" onClick="pre()" name="anh1"></button>
+                    </section>
+                    
+               
+                </figure>
+            </section>
+</body>
+</html>
